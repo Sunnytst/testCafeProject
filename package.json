@@ -1,0 +1,22 @@
+{
+  "name": "testcode",
+  "version": "1.0.0",
+  "description": "testcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunnytst/testCafeProject.git"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "chenling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunnytst/issues"
+  },
+  "homepage": "https://github.com/Sunnytst#readme"
+}
