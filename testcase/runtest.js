@@ -4,7 +4,7 @@ const testCafe = await TestCafe('localhost', 1337, 1338);
 try {
     const Runner = testCafe.createRunner();
     await Runner
-        .src('./testcase/myrole.js')
+        .src('./testcase/login.js')
         .browsers('safari')
         .run();
 }
