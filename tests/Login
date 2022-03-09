@@ -1,0 +1,9 @@
+import 'testcafe'
+// 在测试夹具中打开页面
+fixture('百度案例').page('http://192.168.1.57:84/');
+
+// 第一条用例：百度输入 柠檬班点击搜索
+test('用例1', async t => {
+    await t.typeText('#kw', "柠檬班")
+        .click('#su');
+});
