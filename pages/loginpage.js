@@ -4,4 +4,7 @@ import {
 } from 'testcafe';
 
 const Logo = Selector('.login_title');
-const su = Selector('#username');
+const username = Selector('#username');
+const password = Selector('#password');
+const vCode = Selector('#vCode');
+const Login = Selector('.loginbtn');
