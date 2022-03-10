@@ -2,7 +2,8 @@ import 'testcafe';
 import Loginpage from '../pages/Loginpage';
 console.log(Loginpage.username)
 async function Logintest(){
-    fixture('南昌城管城管').page('http://192.168.1.57:84/');
+    fixture('南昌城管城管')
+        .page('http://192.168.1.57:84/');
 
     // 登录
     test('用例1', async t => {

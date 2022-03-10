@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "romanresh.testcafe-test-runner"
+        "romanresh.testcafe-test-runner",
+        "formulahendry.code-runner"
     ]
 }
