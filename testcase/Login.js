@@ -1,5 +1,5 @@
-import 'testcafe';
-import Loginpage from '../pages/Loginpage';
+import  'testcafe';
+import {Loginpage} from '../pages/Loginpage.js';
 console.log(Loginpage.username)
 async function Logintest(){
     fixture('南昌城管城管')
@@ -7,7 +7,7 @@ async function Logintest(){
 
     // 登录
     test('用例1', async t => {
-        await t.typeText(Loginpage.username, "admin")
+        await t.typeText(Selector('.login_title'), "admin")
                .typeText(Loginpage.password, "aad234")
                .typeText(Loginpage.vCode, "0000")
                .click(Loginpage.Login)

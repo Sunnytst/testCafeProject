@@ -2,7 +2,8 @@
   "name": "testcode",
   "version": "1.0.0",
   "description": "testcode",
-  "main": "index.js",
+  "main": "Login.js",
+  "type": "module",
   "scripts": {
     "test": "make test"
   },
