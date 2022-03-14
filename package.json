@@ -21,6 +21,17 @@
   },
   "homepage": "https://github.com/Sunnytst#readme",
   "devDependencies": {
-    "testcafe": "^1.18.4"
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@types/node": "^17.0.21",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-core": "^6.26.3",
+    "testcafe": "^1.18.4",
+    "testcafe-vue-selectors": "^3.1.1"
   }
 }

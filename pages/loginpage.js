@@ -1,6 +1,6 @@
 //引入testcafe
-import { Selector} from 'testcafe';
-
+import { Selector } from 'testcafe';
+    
     const Logo = Selector('.login_title');
     const username = Selector('#username');
     const password = Selector('#password');
